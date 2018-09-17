@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:wbc#"
+     xml:base="urn:absolute:wbc"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:wbc="urn:absolute:wbc#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:wbc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:wbc#dislikes -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:wbc#dislikes">
+        <rdfs:domain rdf:resource="urn:absolute:wbc#Companion"/>
+        <rdfs:range rdf:resource="urn:absolute:wbc#Companion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:wbc#likes -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:wbc#likes">
+        <rdfs:domain rdf:resource="urn:absolute:wbc#Companion"/>
+        <rdfs:range rdf:resource="urn:absolute:wbc#Companion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:wbc#claimant -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:wbc#claimant">
+        <rdfs:domain rdf:resource="urn:absolute:wbc#Companion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:wbc#name -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:wbc#name">
+        <rdfs:domain rdf:resource="urn:absolute:wbc#Companion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:wbc#pillager -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:wbc#pillager">
+        <rdfs:domain rdf:resource="urn:absolute:wbc#Companion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:wbc#Companion -->
+
+    <owl:Class rdf:about="urn:absolute:wbc#Companion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:wbc#Alayen -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Alayen">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Marnid"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Nizar"/>
+        <likes rdf:resource="urn:absolute:wbc#Ymira"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alayen</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Artimenner -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Artimenner">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Jeremus"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Klethi"/>
+        <likes rdf:resource="urn:absolute:wbc#Lezalit"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artimenner</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Baheshtur -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Baheshtur">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Katrin"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Marnid"/>
+        <likes rdf:resource="urn:absolute:wbc#Rolf"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baheshtur</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Borcha -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Borcha">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Deshavi"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Klethi"/>
+        <likes rdf:resource="urn:absolute:wbc#Marnid"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borcha</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Bunduk -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Bunduk">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Lezalit"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Rolf"/>
+        <likes rdf:resource="urn:absolute:wbc#Katrin"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunduk</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Deshavi -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Deshavi">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Borcha"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Rolf"/>
+        <likes rdf:resource="urn:absolute:wbc#Klethi"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deshavi</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Firentis -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Firentis">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Katrin"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Nizar"/>
+        <likes rdf:resource="urn:absolute:wbc#Jeremus"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Firentis</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Jeremus -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Jeremus">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Artimenner"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Matheld"/>
+        <likes rdf:resource="urn:absolute:wbc#Firentis"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremus</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Katrin -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Katrin">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Baheshtur"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Firentis"/>
+        <likes rdf:resource="urn:absolute:wbc#Bunduk"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrin</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Klethi -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Klethi">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Artimenner"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Borcha"/>
+        <likes rdf:resource="urn:absolute:wbc#Deshavi"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klethi</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Lezalit -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Lezalit">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Bunduk"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Ymira"/>
+        <likes rdf:resource="urn:absolute:wbc#Artimenner"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lezalit</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Marnid -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Marnid">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Alayen"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Baheshtur"/>
+        <likes rdf:resource="urn:absolute:wbc#Borcha"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marnid</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Matheld -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Matheld">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Jeremus"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Ymira"/>
+        <likes rdf:resource="urn:absolute:wbc#Nizar"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matheld</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Nizar -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Nizar">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Alayen"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Firentis"/>
+        <likes rdf:resource="urn:absolute:wbc#Matheld"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nizar</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Rolf -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Rolf">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Bunduk"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Deshavi"/>
+        <likes rdf:resource="urn:absolute:wbc#Baheshtur"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolf</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:wbc#Ymira -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:wbc#Ymira">
+        <rdf:type rdf:resource="urn:absolute:wbc#Companion"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Lezalit"/>
+        <dislikes rdf:resource="urn:absolute:wbc#Matheld"/>
+        <likes rdf:resource="urn:absolute:wbc#Alayen"/>
+        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ymira</name>
+        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
