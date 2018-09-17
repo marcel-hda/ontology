@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://192.168.178.33/ontology/wbc/"
-     xml:base="http://192.168.178.33/ontology/wbc/"
+<rdf:RDF xmlns="http://192.168.178.33/ontology/"
+     xml:base="http://192.168.178.33/ontology/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:wbc="http://192.168.178.33/ontology/wbc/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:wbc1="http://192.168.178.33/ontology/wbc/#">
-    <owl:Ontology rdf:about="http://192.168.178.33/ontology/wbc/"/>
+     xmlns:ontology="http://192.168.178.33/ontology/#">
+    <owl:Ontology rdf:about="http://192.168.178.33/ontology/"/>
     
 
 
@@ -23,20 +23,20 @@
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#dislikes -->
+    <!-- http://192.168.178.33/ontology/#dislikes -->
 
-    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/wbc/#dislikes">
-        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <rdfs:range rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/#dislikes">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <rdfs:range rdf:resource="http://192.168.178.33/ontology/#Companion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#likes -->
+    <!-- http://192.168.178.33/ontology/#likes -->
 
-    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/wbc/#likes">
-        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <rdfs:range rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/#likes">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <rdfs:range rdf:resource="http://192.168.178.33/ontology/#Companion"/>
     </owl:ObjectProperty>
     
 
@@ -52,28 +52,28 @@
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#claimant -->
+    <!-- http://192.168.178.33/ontology/#claimant -->
 
-    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#claimant">
-        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/#claimant">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#name -->
+    <!-- http://192.168.178.33/ontology/#name -->
 
-    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#name">
-        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/#name">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#pillager -->
+    <!-- http://192.168.178.33/ontology/#pillager -->
 
-    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#pillager">
-        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/#pillager">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
@@ -90,9 +90,9 @@
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Companion -->
+    <!-- http://192.168.178.33/ontology/#Companion -->
 
-    <owl:Class rdf:about="http://192.168.178.33/ontology/wbc/#Companion"/>
+    <owl:Class rdf:about="http://192.168.178.33/ontology/#Companion"/>
     
 
 
@@ -107,226 +107,226 @@
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Alayen -->
+    <!-- http://192.168.178.33/ontology/#Alayen -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Alayen">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alayen</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Alayen">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Marnid"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Nizar"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Ymira"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alayen</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Artimenner -->
+    <!-- http://192.168.178.33/ontology/#Artimenner -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Artimenner">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artimenner</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Artimenner">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Jeremus"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Klethi"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Lezalit"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artimenner</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Baheshtur -->
+    <!-- http://192.168.178.33/ontology/#Baheshtur -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Baheshtur">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baheshtur</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Baheshtur">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Katrin"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Marnid"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Rolf"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baheshtur</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Borcha -->
+    <!-- http://192.168.178.33/ontology/#Borcha -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Borcha">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borcha</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Borcha">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Deshavi"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Klethi"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Marnid"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borcha</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Bunduk -->
+    <!-- http://192.168.178.33/ontology/#Bunduk -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Bunduk">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunduk</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Bunduk">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Lezalit"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Rolf"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Katrin"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunduk</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Deshavi -->
+    <!-- http://192.168.178.33/ontology/#Deshavi -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Deshavi">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deshavi</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Deshavi">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Borcha"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Rolf"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Klethi"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deshavi</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Firentis -->
+    <!-- http://192.168.178.33/ontology/#Firentis -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Firentis">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Firentis</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Firentis">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Katrin"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Nizar"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Jeremus"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Firentis</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Jeremus -->
+    <!-- http://192.168.178.33/ontology/#Jeremus -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Jeremus">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremus</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Jeremus">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Artimenner"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Matheld"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Firentis"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremus</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Katrin -->
+    <!-- http://192.168.178.33/ontology/#Katrin -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Katrin">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrin</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Katrin">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Baheshtur"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Firentis"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Bunduk"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrin</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Klethi -->
+    <!-- http://192.168.178.33/ontology/#Klethi -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Klethi">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klethi</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Klethi">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Artimenner"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Borcha"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Deshavi"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klethi</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Lezalit -->
+    <!-- http://192.168.178.33/ontology/#Lezalit -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Lezalit">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lezalit</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Lezalit">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Bunduk"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Ymira"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Artimenner"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lezalit</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Marnid -->
+    <!-- http://192.168.178.33/ontology/#Marnid -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Marnid">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marnid</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Marnid">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Alayen"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Baheshtur"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Borcha"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marnid</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Matheld -->
+    <!-- http://192.168.178.33/ontology/#Matheld -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Matheld">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matheld</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Matheld">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Jeremus"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Ymira"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Nizar"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matheld</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Nizar -->
+    <!-- http://192.168.178.33/ontology/#Nizar -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Nizar">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nizar</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Nizar">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Alayen"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Firentis"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Matheld"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nizar</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Rolf -->
+    <!-- http://192.168.178.33/ontology/#Rolf -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Rolf">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolf</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Rolf">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Bunduk"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Deshavi"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Baheshtur"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolf</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://192.168.178.33/ontology/wbc/#Ymira -->
+    <!-- http://192.168.178.33/ontology/#Ymira -->
 
-    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Ymira">
-        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
-        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
-        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
-        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
-        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ymira</wbc1:name>
-        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/#Ymira">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/#Companion"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Lezalit"/>
+        <ontology:dislikes rdf:resource="http://192.168.178.33/ontology/#Matheld"/>
+        <ontology:likes rdf:resource="http://192.168.178.33/ontology/#Alayen"/>
+        <ontology:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:claimant>
+        <ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ymira</ontology:name>
+        <ontology:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:pillager>
     </owl:NamedIndividual>
 </rdf:RDF>
 
