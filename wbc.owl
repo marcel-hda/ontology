@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#"
-     xml:base="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl"
+<rdf:RDF xmlns="http://192.168.178.33/ontology/wbc/"
+     xml:base="http://192.168.178.33/ontology/wbc/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:wbc="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl"/>
+     xmlns:wbc="http://192.168.178.33/ontology/wbc/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wbc1="http://192.168.178.33/ontology/wbc/#">
+    <owl:Ontology rdf:about="http://192.168.178.33/ontology/wbc/"/>
     
 
 
@@ -22,20 +23,20 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#dislikes -->
+    <!-- http://192.168.178.33/ontology/wbc/#dislikes -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#dislikes">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/wbc/#dislikes">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <rdfs:range rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#likes -->
+    <!-- http://192.168.178.33/ontology/wbc/#likes -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#likes">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:ObjectProperty rdf:about="http://192.168.178.33/ontology/wbc/#likes">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <rdfs:range rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
     </owl:ObjectProperty>
     
 
@@ -51,28 +52,28 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#claimant -->
+    <!-- http://192.168.178.33/ontology/wbc/#claimant -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#claimant">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#claimant">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#name -->
+    <!-- http://192.168.178.33/ontology/wbc/#name -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#name">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#name">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#pillager -->
+    <!-- http://192.168.178.33/ontology/wbc/#pillager -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#pillager">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:DatatypeProperty rdf:about="http://192.168.178.33/ontology/wbc/#pillager">
+        <rdfs:domain rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
@@ -89,9 +90,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion -->
+    <!-- http://192.168.178.33/ontology/wbc/#Companion -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
+    <owl:Class rdf:about="http://192.168.178.33/ontology/wbc/#Companion"/>
     
 
 
@@ -106,226 +107,226 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Alayen -->
+    <!-- http://192.168.178.33/ontology/wbc/#Alayen -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Alayen">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Marnid"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Nizar"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Ymira"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alayen</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Alayen">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alayen</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Artimenner -->
+    <!-- http://192.168.178.33/ontology/wbc/#Artimenner -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Artimenner">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Jeremus"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Klethi"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Lezalit"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artimenner</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Artimenner">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artimenner</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Baheshtur -->
+    <!-- http://192.168.178.33/ontology/wbc/#Baheshtur -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Baheshtur">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Katrin"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Marnid"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Rolf"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baheshtur</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Baheshtur">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baheshtur</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Borcha -->
+    <!-- http://192.168.178.33/ontology/wbc/#Borcha -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Borcha">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Deshavi"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Klethi"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Marnid"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borcha</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Borcha">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Marnid"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borcha</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Bunduk -->
+    <!-- http://192.168.178.33/ontology/wbc/#Bunduk -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Bunduk">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Lezalit"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Rolf"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Katrin"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunduk</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Bunduk">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunduk</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Deshavi -->
+    <!-- http://192.168.178.33/ontology/wbc/#Deshavi -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Deshavi">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Borcha"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Rolf"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Klethi"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deshavi</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Deshavi">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Rolf"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Klethi"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deshavi</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Firentis -->
+    <!-- http://192.168.178.33/ontology/wbc/#Firentis -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Firentis">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Katrin"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Nizar"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Jeremus"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Firentis</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Firentis">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Katrin"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Firentis</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Jeremus -->
+    <!-- http://192.168.178.33/ontology/wbc/#Jeremus -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Jeremus">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Artimenner"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Matheld"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Firentis"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremus</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Jeremus">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremus</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Katrin -->
+    <!-- http://192.168.178.33/ontology/wbc/#Katrin -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Katrin">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Baheshtur"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Firentis"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Bunduk"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrin</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Katrin">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrin</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Klethi -->
+    <!-- http://192.168.178.33/ontology/wbc/#Klethi -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Klethi">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Artimenner"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Borcha"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Deshavi"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klethi</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Klethi">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klethi</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Lezalit -->
+    <!-- http://192.168.178.33/ontology/wbc/#Lezalit -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Lezalit">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Bunduk"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Ymira"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Artimenner"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lezalit</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Lezalit">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Artimenner"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lezalit</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Marnid -->
+    <!-- http://192.168.178.33/ontology/wbc/#Marnid -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Marnid">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Alayen"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Baheshtur"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Borcha"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marnid</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Marnid">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Borcha"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marnid</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Matheld -->
+    <!-- http://192.168.178.33/ontology/wbc/#Matheld -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Matheld">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Jeremus"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Ymira"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Nizar"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matheld</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Matheld">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Jeremus"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Ymira"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Nizar"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matheld</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Nizar -->
+    <!-- http://192.168.178.33/ontology/wbc/#Nizar -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Nizar">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Alayen"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Firentis"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Matheld"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nizar</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Nizar">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Firentis"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nizar</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Rolf -->
+    <!-- http://192.168.178.33/ontology/wbc/#Rolf -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Rolf">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Bunduk"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Deshavi"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Baheshtur"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolf</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Rolf">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Bunduk"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Deshavi"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Baheshtur"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolf</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</wbc1:pillager>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Ymira -->
+    <!-- http://192.168.178.33/ontology/wbc/#Ymira -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Ymira">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Companion"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Lezalit"/>
-        <dislikes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Matheld"/>
-        <likes rdf:resource="https://raw.githubusercontent.com/marcel-hda/ontology/master/wbc.owl#Alayen"/>
-        <claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</claimant>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ymira</name>
-        <pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</pillager>
+    <owl:NamedIndividual rdf:about="http://192.168.178.33/ontology/wbc/#Ymira">
+        <rdf:type rdf:resource="http://192.168.178.33/ontology/wbc/#Companion"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Lezalit"/>
+        <wbc1:dislikes rdf:resource="http://192.168.178.33/ontology/wbc/#Matheld"/>
+        <wbc1:likes rdf:resource="http://192.168.178.33/ontology/wbc/#Alayen"/>
+        <wbc1:claimant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:claimant>
+        <wbc1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ymira</wbc1:name>
+        <wbc1:pillager rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</wbc1:pillager>
     </owl:NamedIndividual>
 </rdf:RDF>
 
